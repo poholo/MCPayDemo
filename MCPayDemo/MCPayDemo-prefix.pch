@@ -1,0 +1,19 @@
+//
+//  MCPayDemo-prefix.pch
+//  MCPayDemo
+//
+//  Created by mac on 15/8/28.
+//  Copyright © 2015年 mc. All rights reserved.
+//
+
+#import <Availability.h>
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(750,1334),[[UIScreen mainScreen] currentMode].size):NO)
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(1242,2208),[[UIScreen mainScreen] currentMode].size):NO)
+#endif
+

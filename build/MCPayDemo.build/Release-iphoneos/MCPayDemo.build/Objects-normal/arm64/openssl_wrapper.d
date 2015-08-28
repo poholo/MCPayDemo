@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/Util/openssl_wrapper.m \
+  /Users/mac/Desktop/pro/git/MCPayDemo/MCPayDemo/MCPayDemo-prefix.pch \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/Util/openssl_wrapper.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/rsa.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/asn1.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/e_os2.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/opensslconf.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/bio.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/crypto.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/stack.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/safestack.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/opensslv.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/ossl_typ.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/symhacks.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/bn.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/pem.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/evp.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/objects.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/obj_mac.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/x509.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/buffer.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/ec.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/ecdsa.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/ecdh.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/dsa.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/dh.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/sha.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/x509_vfy.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/lhash.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/pkcs7.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/pem2.h \
+  /Users/mac/Desktop/pro/git/MCPayDemo/lib/alipay/openssl/md5.h

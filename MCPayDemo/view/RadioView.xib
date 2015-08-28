@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="566-6X-3pS" customClass="RadioView">
+            <rect key="frame" x="0.0" y="0.0" width="121" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RadioButton-Unselected.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ZQ-Ue-1f2">
+                    <rect key="frame" x="5" y="8" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="5MC-oD-ROj"/>
+                        <constraint firstAttribute="height" constant="20" id="ZR9-zq-uYH"/>
+                    </constraints>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vjX-jc-kry">
+                    <rect key="frame" x="29" y="5" width="87" height="26"/>
+                    <gestureRecognizers/>
+                </imageView>
+            </subviews>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="0ZQ-Ue-1f2" secondAttribute="centerX" id="2Sl-Pf-aKF"/>
+                <constraint firstAttribute="trailing" secondItem="vjX-jc-kry" secondAttribute="trailing" constant="5" id="Asg-gN-RCj"/>
+                <constraint firstItem="vjX-jc-kry" firstAttribute="leading" secondItem="0ZQ-Ue-1f2" secondAttribute="trailing" constant="4" id="E8h-tR-wN2"/>
+                <constraint firstItem="0ZQ-Ue-1f2" firstAttribute="leading" secondItem="566-6X-3pS" secondAttribute="leading" constant="5" id="Oay-Tj-RSa"/>
+                <constraint firstItem="0ZQ-Ue-1f2" firstAttribute="top" secondItem="566-6X-3pS" secondAttribute="top" constant="8" id="UgK-wC-B4J"/>
+                <constraint firstAttribute="centerY" secondItem="0ZQ-Ue-1f2" secondAttribute="centerY" id="hLu-6N-tJb"/>
+                <constraint firstAttribute="bottom" secondItem="vjX-jc-kry" secondAttribute="bottom" constant="5" id="kC8-xX-gRv"/>
+                <constraint firstItem="vjX-jc-kry" firstAttribute="top" secondItem="566-6X-3pS" secondAttribute="top" constant="5" id="nXg-ml-hLx"/>
+                <constraint firstAttribute="centerX" secondItem="0ZQ-Ue-1f2" secondAttribute="centerX" id="rLx-OJ-gUQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2Sl-Pf-aKF"/>
+                    <exclude reference="UgK-wC-B4J"/>
+                    <exclude reference="rLx-OJ-gUQ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imgIco" destination="vjX-jc-kry" id="NyW-VL-Qga"/>
+                <outlet property="imgRadio" destination="0ZQ-Ue-1f2" id="q0d-9q-Xjm"/>
+            </connections>
+            <point key="canvasLocation" x="55.5" y="282"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="RadioButton-Unselected.png" width="20" height="21"/>
+    </resources>
+</document>
